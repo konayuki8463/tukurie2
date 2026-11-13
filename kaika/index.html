@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="ja" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KAIKA Project（カイカ・プロジェクト）｜好きなことが、未来をつくる力になる。｜シェア工房TukuriE（千葉県君津市）</title>
-  <meta name="description" content="千葉県君津市のシェア工房TukuriEが運営する小4〜中3向けクリエイティブ探究プログラム「KAIKA Project」。DISCOVER×MAKE×STORYの3つのプロセスで、3Dプリンターやレーザーカッターも活用しながら子どもの「やってみたい」と可能性を開花させます。">
-  <meta name="keywords" content="KAIKA Project,君津市 子ども ものづくり,君津市 プログラミング教室,千葉県 デジタルものづくり,子ども クリエイティブ教育,子ども 探究学習,3Dプリンター 子ども">
+  <meta name="description"
+    content="千葉県君津市のシェア工房TukuriEが運営する小4〜中3向けクリエイティブ探究プログラム「KAIKA Project」。DISCOVER×MAKE×STORYの3つのプロセスで、3Dプリンターやレーザーカッターも活用しながら子どもの「やってみたい」と可能性を開花させます。">
+  <meta name="keywords"
+    content="KAIKA Project,君津市 子ども ものづくり,君津市 プログラミング教室,千葉県 デジタルものづくり,子ども クリエイティブ教育,子ども 探究学習,3Dプリンター 子ども">
   <meta property="og:title" content="KAIKA Project｜好きなことが、未来をつくる力になる。">
-  <meta property="og:description" content="発見する。つくる。伝える。自分らしく、開花する。千葉県君津市「シェア工房TukuriE」のクリエイティブ探究プログラム 第1期 Basic Class 募集開始。">
+  <meta property="og:description"
+    content="発見する。つくる。伝える。自分らしく、開花する。千葉県君津市「シェア工房TukuriE」のクリエイティブ探究プログラム 第1期 Basic Class 募集開始。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tukurie.com/kaika/">
   <meta property="og:site_name" content="KAIKA Project - シェア工房TukuriE">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@700;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Maru+Gothic:wght@700;900&display=swap"
+    rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -39,37 +45,78 @@
     }
   </script>
   <style>
-    body { background-color: #FCFBF7; color: #2B333E; font-feature-settings: "palt"; }
-    .bg-dot-pattern { background-image: radial-gradient(#2A8C68 1px, transparent 1px); background-size: 28px 28px; }
-    .kaika-gradient-bar { background: linear-gradient(90deg, #E63946 0%, #F4A261 20%, #E9C46A 40%, #2A9D8F 60%, #3A86FF 80%, #8338EC 100%); }
-    .kaika-gradient-text { background: linear-gradient(135deg, #2A8C68 0%, #2A9D8F 40%, #3A86FF 80%, #8338EC 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    @keyframes spin-slow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-    .animate-spin-slow { animation: spin-slow 40s linear infinite; }
-    .hand-underline { position: relative; display: inline-block; }
+    body {
+      background-color: #FCFBF7;
+      color: #2B333E;
+      font-feature-settings: "palt";
+    }
+
+    .bg-dot-pattern {
+      background-image: radial-gradient(#2A8C68 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    .kaika-gradient-bar {
+      background: linear-gradient(90deg, #E63946 0%, #F4A261 20%, #E9C46A 40%, #2A9D8F 60%, #3A86FF 80%, #8338EC 100%);
+    }
+
+    .kaika-gradient-text {
+      background: linear-gradient(135deg, #2A8C68 0%, #2A9D8F 40%, #3A86FF 80%, #8338EC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    @keyframes spin-slow {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .animate-spin-slow {
+      animation: spin-slow 40s linear infinite;
+    }
+
+    .hand-underline {
+      position: relative;
+      display: inline-block;
+    }
+
     .hand-underline::after {
-      content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; height: 8px;
-      background: linear-gradient(90deg, rgba(244,157,55,0.45), rgba(42,140,104,0.45)); border-radius: 999px; z-index: -1;
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 100%;
+      height: 8px;
+      background: linear-gradient(90deg, rgba(244, 157, 55, 0.45), rgba(42, 140, 104, 0.45));
+      border-radius: 999px;
+      z-index: -1;
     }
   </style>
 </head>
+
 <body class="antialiased selection:bg-leaf/20 selection:text-forest">
 
   <!-- 共通SVGシンボル（KAIKA 12枚花びらマルチカラーロゴ） -->
   <svg class="hidden" aria-hidden="true">
     <defs>
       <g id="kaika-flower-logo" stroke-width="3.4" fill="none" stroke-linecap="round">
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(0 60 60)" stroke="#E9C46A"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(30 60 60)" stroke="#52B788"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(60 60 60)" stroke="#2A9D8F"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(90 60 60)" stroke="#3A86FF"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(120 60 60)" stroke="#6C5CE7"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(150 60 60)" stroke="#8338EC"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(180 60 60)" stroke="#3A86FF"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(210 60 60)" stroke="#2A9D8F"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(240 60 60)" stroke="#95D5B2"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(270 60 60)" stroke="#E9C46A"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(300 60 60)" stroke="#F4A261"/>
-        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(330 60 60)" stroke="#E63946"/>
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(0 60 60)" stroke="#E9C46A" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(30 60 60)" stroke="#52B788" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(60 60 60)" stroke="#2A9D8F" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(90 60 60)" stroke="#3A86FF" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(120 60 60)" stroke="#6C5CE7" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(150 60 60)" stroke="#8338EC" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(180 60 60)" stroke="#3A86FF" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(210 60 60)" stroke="#2A9D8F" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(240 60 60)" stroke="#95D5B2" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(270 60 60)" stroke="#E9C46A" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(300 60 60)" stroke="#F4A261" />
+        <ellipse cx="60" cy="34" rx="13.5" ry="24.5" transform="rotate(330 60 60)" stroke="#E63946" />
       </g>
     </defs>
   </svg>
@@ -77,16 +124,19 @@
   <div class="h-1.5 w-full kaika-gradient-bar fixed top-0 left-0 z-50"></div>
 
   <!-- ヘッダー -->
-  <header class="fixed top-1.5 left-0 right-0 z-40 bg-ivory/90 backdrop-blur-md border-b border-gray-200/70 transition-all">
+  <header
+    class="fixed top-1.5 left-0 right-0 z-40 bg-ivory/90 backdrop-blur-md border-b border-gray-200/70 transition-all">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
       <a href="#hero" class="flex items-center gap-3 group">
-        <svg class="w-11 h-11 sm:w-12 sm:h-12 shrink-0 group-hover:rotate-12 transition-transform duration-500" viewBox="0 0 120 120">
+        <svg class="w-11 h-11 sm:w-12 sm:h-12 shrink-0 group-hover:rotate-12 transition-transform duration-500"
+          viewBox="0 0 120 120">
           <use href="#kaika-flower-logo"></use>
         </svg>
         <div class="flex flex-col">
           <div class="flex items-baseline gap-1.5">
             <span class="font-maru font-black text-2xl sm:text-[26px] tracking-wider text-ink leading-none">KAIKA</span>
-            <span class="font-display font-extrabold text-xs sm:text-sm tracking-[0.18em] text-leaf uppercase">PROJECT</span>
+            <span
+              class="font-display font-extrabold text-xs sm:text-sm tracking-[0.18em] text-leaf uppercase">PROJECT</span>
           </div>
           <span class="text-[10px] text-slate font-medium tracking-wider mt-0.5">クリエイティブ探究プログラム by TukuriE</span>
         </div>
@@ -95,14 +145,18 @@
         <a href="#about" class="hover:text-leaf transition-colors">KAIKAとは？</a>
         <a href="#process" class="hover:text-leaf transition-colors">3つのプロセス</a>
         <a href="#tools" class="hover:text-leaf transition-colors">技術・機材</a>
+        <a href="#model-cases">実践例</a>
         <a href="#curriculum" class="hover:text-leaf transition-colors">全10回日程</a>
         <a href="#guidelines" class="hover:text-leaf transition-colors">募集要項</a>
         <a href="#faq" class="hover:text-leaf transition-colors">よくある質問</a>
       </nav>
       <div class="flex items-center gap-2 sm:gap-3">
-        <a href="#cta" class="px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-leaf hover:bg-forest text-white font-bold text-xs sm:text-sm shadow-sm transition-all flex items-center gap-1.5">
+        <a href="#cta"
+          class="px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-leaf hover:bg-forest text-white font-bold text-xs sm:text-sm shadow-sm transition-all flex items-center gap-1.5">
           <span>申込・見学会案内</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+          </svg>
         </a>
       </div>
     </div>
@@ -110,19 +164,23 @@
 
   <main class="pt-16 sm:pt-20">
     <!-- SECTION 1：ファーストビュー -->
-    <section id="hero" class="relative overflow-hidden pt-8 pb-16 sm:py-20 lg:py-24 bg-gradient-to-b from-ivory via-ivory to-sage/40">
+    <section id="hero"
+      class="relative overflow-hidden pt-8 pb-16 sm:py-20 lg:py-24 bg-gradient-to-b from-ivory via-ivory to-sage/40">
       <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-amber/10 blur-3xl pointer-events-none"></div>
       <div class="absolute top-1/2 -left-24 w-96 h-96 rounded-full bg-leaf/10 blur-3xl pointer-events-none"></div>
 
       <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         <div class="grid lg:grid-cols-12 gap-10 lg:gap-8 items-center">
           <div class="lg:col-span-7 space-y-6">
-            <div class="inline-flex flex-wrap items-center gap-2 bg-white border border-leaf/25 rounded-full pl-2 pr-4 py-1.5 shadow-sm">
-              <span class="px-2.5 py-0.5 rounded-full bg-amber text-white text-xs font-black tracking-wider">第1期 参加者募集</span>
+            <div
+              class="inline-flex flex-wrap items-center gap-2 bg-white border border-leaf/25 rounded-full pl-2 pr-4 py-1.5 shadow-sm">
+              <span class="px-2.5 py-0.5 rounded-full bg-amber text-white text-xs font-black tracking-wider">第1期
+                参加者募集</span>
               <span class="text-xs sm:text-sm font-bold text-ink">Basic Class（小4〜中3対象｜2027年1月17日開講）</span>
             </div>
 
-            <div class="flex items-center gap-2 sm:gap-3 font-display font-extrabold text-sm sm:text-base tracking-widest text-leaf">
+            <div
+              class="flex items-center gap-2 sm:gap-3 font-display font-extrabold text-sm sm:text-base tracking-widest text-leaf">
               <span class="px-3 py-1 rounded-md bg-sage border border-leaf/20">DISCOVER</span>
               <span class="text-amber">×</span>
               <span class="px-3 py-1 rounded-md bg-sage border border-leaf/20">MAKE</span>
@@ -141,24 +199,33 @@
             </p>
 
             <div class="flex flex-wrap gap-2 pt-1 text-xs sm:text-sm font-bold text-ink">
-              <span class="inline-flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-gray-200 shadow-sm">
+              <span
+                class="inline-flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-gray-200 shadow-sm">
                 <span class="w-2 h-2 rounded-full bg-amber"></span>小学4年生〜中学3年生
               </span>
-              <span class="inline-flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-gray-200 shadow-sm">
+              <span
+                class="inline-flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-gray-200 shadow-sm">
                 <span class="w-2 h-2 rounded-full bg-leaf"></span>少人数制（最大8名・選考あり）
               </span>
-              <span class="inline-flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-gray-200 shadow-sm">
+              <span
+                class="inline-flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-gray-200 shadow-sm">
                 <span class="w-2 h-2 rounded-full bg-sky"></span>千葉県君津市・シェア工房TukuriE
               </span>
             </div>
 
             <!-- 2択に整理したファーストビューCTA -->
             <div class="pt-3 flex flex-col sm:flex-row gap-3.5 sm:gap-4">
-              <a href="https://forms.gle/da2SZbtfNDBy53dX9" target="_blank" rel="noopener noreferrer" class="js-form-link px-7 py-4 rounded-2xl bg-leaf hover:bg-forest text-white font-black text-base sm:text-lg shadow-lg shadow-leaf/20 hover:shadow-xl transition-all flex items-center justify-center gap-2 group">
+              <a href="https://forms.gle/da2SZbtfNDBy53dX9" target="_blank" rel="noopener noreferrer"
+                class="js-form-link px-7 py-4 rounded-2xl bg-leaf hover:bg-forest text-white font-black text-base sm:text-lg shadow-lg shadow-leaf/20 hover:shadow-xl transition-all flex items-center justify-center gap-2 group">
                 <span>参加を申し込む（エントリー）</span>
-                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                    d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
               </a>
-              <a href="https://lin.ee/5YhFADn" target="_blank" rel="noopener noreferrer" class="js-line-link px-7 py-4 rounded-2xl bg-white hover:bg-[#06C755]/10 text-ink border-2 border-[#06C755]/40 font-bold text-base sm:text-lg shadow-sm transition-all flex items-center justify-center gap-2">
+              <a href="https://lin.ee/5YhFADn" target="_blank" rel="noopener noreferrer"
+                class="js-line-link px-7 py-4 rounded-2xl bg-white hover:bg-[#06C755]/10 text-ink border-2 border-[#06C755]/40 font-bold text-base sm:text-lg shadow-sm transition-all flex items-center justify-center gap-2">
                 <span class="w-2.5 h-2.5 rounded-full bg-[#06C755]"></span>
                 <span>見学会の案内・LINEで質問する</span>
               </a>
@@ -169,22 +236,28 @@
           <div class="lg:col-span-5">
             <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-soft border border-gray-200/80 relative overflow-hidden">
               <div class="flex items-center justify-between mb-4">
-                <span class="font-display font-extrabold text-xs tracking-widest uppercase text-slate">CONCEPT DIAGRAM</span>
+                <span class="font-display font-extrabold text-xs tracking-widest uppercase text-slate">CONCEPT
+                  DIAGRAM</span>
                 <span class="text-xs font-bold text-leaf bg-sage px-2.5 py-0.5 rounded-full">KAIKA ＝ 開花</span>
               </div>
 
               <div class="relative w-full aspect-square max-w-[340px] mx-auto my-2 flex items-center justify-center">
                 <svg class="w-full h-full absolute inset-0" viewBox="0 0 320 320">
-                  <circle cx="160" cy="160" r="118" fill="none" stroke="#DCE7E0" stroke-width="2" stroke-dasharray="6 6" />
+                  <circle cx="160" cy="160" r="118" fill="none" stroke="#DCE7E0" stroke-width="2"
+                    stroke-dasharray="6 6" />
                   <circle cx="160" cy="160" r="78" fill="none" stroke="#EDF2EE" stroke-width="1.5" />
-                  <path d="M 160 42 A 118 118 0 0 1 262 219" fill="none" stroke="#F49D37" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-                  <path d="M 262 219 A 118 118 0 0 1 58 219" fill="none" stroke="#2A8C68" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-                  <path d="M 58 219 A 118 118 0 0 1 160 42" fill="none" stroke="#3A86FF" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+                  <path d="M 160 42 A 118 118 0 0 1 262 219" fill="none" stroke="#F49D37" stroke-width="2.5"
+                    stroke-linecap="round" opacity="0.5" />
+                  <path d="M 262 219 A 118 118 0 0 1 58 219" fill="none" stroke="#2A8C68" stroke-width="2.5"
+                    stroke-linecap="round" opacity="0.5" />
+                  <path d="M 58 219 A 118 118 0 0 1 160 42" fill="none" stroke="#3A86FF" stroke-width="2.5"
+                    stroke-linecap="round" opacity="0.5" />
                 </svg>
 
                 <div class="absolute top-1 left-1/2 -translate-x-1/2 flex flex-col items-center text-center z-10">
                   <div class="px-4 py-2 rounded-2xl bg-[#FFF9EB] border-2 border-amber shadow-sm">
-                    <span class="block font-display font-extrabold text-xs text-amber tracking-wider">01. DISCOVER</span>
+                    <span class="block font-display font-extrabold text-xs text-amber tracking-wider">01.
+                      DISCOVER</span>
                     <span class="block font-bold text-xs text-ink">発見する・好きを知る</span>
                   </div>
                 </div>
@@ -203,7 +276,8 @@
                   </div>
                 </div>
 
-                <div class="relative z-20 w-36 h-36 rounded-full bg-white shadow-md border border-gray-100 flex flex-col items-center justify-center p-3">
+                <div
+                  class="relative z-20 w-36 h-36 rounded-full bg-white shadow-md border border-gray-100 flex flex-col items-center justify-center p-3">
                   <svg class="w-20 h-20 animate-spin-slow" viewBox="0 0 120 120">
                     <use href="#kaika-flower-logo"></use>
                   </svg>
@@ -227,7 +301,8 @@
     <section id="about" class="py-16 sm:py-24 bg-white border-y border-gray-100">
       <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <div class="text-center max-w-3xl mx-auto mb-14">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
             ABOUT KAIKA PROJECT
           </div>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink leading-snug mb-6">
@@ -245,23 +320,37 @@
             <div class="text-xs font-bold text-slate uppercase tracking-wider mb-2">一般的なプログラミング教室・工作教室</div>
             <h3 class="font-bold text-lg sm:text-xl text-ink mb-4">「決められた正解・手順」を学ぶ場</h3>
             <ul class="space-y-3 text-sm sm:text-base text-slate">
-              <li class="flex items-start gap-2.5"><span class="text-gray-400 font-bold mt-0.5">・</span><span>全員が同じテキスト・同じ設計図通りに作る</span></li>
-              <li class="flex items-start gap-2.5"><span class="text-gray-400 font-bold mt-0.5">・</span><span>ソフトや機械の操作技術を覚えること自体が目的になりやすい</span></li>
-              <li class="flex items-start gap-2.5"><span class="text-gray-400 font-bold mt-0.5">・</span><span>作品を完成させたらそこで終わりになる</span></li>
+              <li class="flex items-start gap-2.5"><span
+                  class="text-gray-400 font-bold mt-0.5">・</span><span>全員が同じテキスト・同じ設計図通りに作る</span></li>
+              <li class="flex items-start gap-2.5"><span
+                  class="text-gray-400 font-bold mt-0.5">・</span><span>ソフトや機械の操作技術を覚えること自体が目的になりやすい</span></li>
+              <li class="flex items-start gap-2.5"><span
+                  class="text-gray-400 font-bold mt-0.5">・</span><span>作品を完成させたらそこで終わりになる</span></li>
             </ul>
           </div>
 
           <div class="rounded-3xl bg-sage/60 p-6 sm:p-8 border-2 border-leaf/40 shadow-card relative overflow-hidden">
             <div class="flex items-center justify-between mb-2">
-              <span class="text-xs font-extrabold text-leaf uppercase tracking-wider">KAIKA Project（クリエイティブ探究プログラム）</span>
-              <svg class="w-7 h-7" viewBox="0 0 120 120"><use href="#kaika-flower-logo"></use></svg>
+              <span class="text-xs font-extrabold text-leaf uppercase tracking-wider">KAIKA
+                Project（クリエイティブ探究プログラム）</span>
+              <svg class="w-7 h-7" viewBox="0 0 120 120">
+                <use href="#kaika-flower-logo"></use>
+              </svg>
             </div>
             <h3 class="font-maru font-black text-lg sm:text-xl text-ink mb-4">「自分の好き・問い」から創り、伝える場</h3>
             <ul class="space-y-3 text-sm sm:text-base text-ink font-medium">
-              <li class="flex items-start gap-2.5"><span class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span>技術を覚えるだけでなく、<strong>自分の興味からテーマを見つける</strong></span></li>
-              <li class="flex items-start gap-2.5"><span class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span>デジタル技術や道具を使い、<strong>アイデアを実際の作品にする</strong></span></li>
-              <li class="flex items-start gap-2.5"><span class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span><strong>作品に込めた思いや制作過程を自分の言葉で伝える</strong></span></li>
-              <li class="flex items-start gap-2.5"><span class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span>試行錯誤を通じて、<strong>自分の可能性が開花する経験</strong>を大切にする</span></li>
+              <li class="flex items-start gap-2.5"><span
+                  class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span>技術を覚えるだけでなく、<strong>自分の興味からテーマを見つける</strong></span>
+              </li>
+              <li class="flex items-start gap-2.5"><span
+                  class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span>デジタル技術や道具を使い、<strong>アイデアを実際の作品にする</strong></span>
+              </li>
+              <li class="flex items-start gap-2.5"><span
+                  class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span><strong>作品に込めた思いや制作過程を自分の言葉で伝える</strong></span>
+              </li>
+              <li class="flex items-start gap-2.5"><span
+                  class="w-5 h-5 rounded-full bg-leaf text-white flex items-center justify-center text-xs shrink-0 mt-0.5">✓</span><span>試行錯誤を通じて、<strong>自分の可能性が開花する経験</strong>を大切にする</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -271,12 +360,30 @@
             KAIKA Projectが大切にする <span class="text-leaf">6つの考え方</span>
           </h3>
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span class="font-display font-extrabold text-amber text-lg leading-none mt-0.5">01</span><p class="text-sm sm:text-base font-bold text-ink leading-snug">正解を教えるのではなく、自分で考えることを大切にする</p></div>
-            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span class="font-display font-extrabold text-leaf text-lg leading-none mt-0.5">02</span><p class="text-sm sm:text-base font-bold text-ink leading-snug">技術を学ぶこと自体を目的にしない</p></div>
-            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span class="font-display font-extrabold text-sky text-lg leading-none mt-0.5">03</span><p class="text-sm sm:text-base font-bold text-ink leading-snug">子ども自身がテーマやアイデアを考える</p></div>
-            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span class="font-display font-extrabold text-coral text-lg leading-none mt-0.5">04</span><p class="text-sm sm:text-base font-bold text-ink leading-snug">失敗や試行錯誤を肯定する</p></div>
-            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span class="font-display font-extrabold text-violet text-lg leading-none mt-0.5">05</span><p class="text-sm sm:text-base font-bold text-ink leading-snug">完成度よりも、考えた過程や挑戦を評価する</p></div>
-            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span class="font-display font-extrabold text-leaf text-lg leading-none mt-0.5">06</span><p class="text-sm sm:text-base font-bold text-ink leading-snug">作品を作って終わりにせず、誰かに伝える経験まで行う</p></div>
+            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span
+                class="font-display font-extrabold text-amber text-lg leading-none mt-0.5">01</span>
+              <p class="text-sm sm:text-base font-bold text-ink leading-snug">正解を教えるのではなく、自分で考えることを大切にする</p>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span
+                class="font-display font-extrabold text-leaf text-lg leading-none mt-0.5">02</span>
+              <p class="text-sm sm:text-base font-bold text-ink leading-snug">技術を学ぶこと自体を目的にしない</p>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span
+                class="font-display font-extrabold text-sky text-lg leading-none mt-0.5">03</span>
+              <p class="text-sm sm:text-base font-bold text-ink leading-snug">子ども自身がテーマやアイデアを考える</p>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span
+                class="font-display font-extrabold text-coral text-lg leading-none mt-0.5">04</span>
+              <p class="text-sm sm:text-base font-bold text-ink leading-snug">失敗や試行錯誤を肯定する</p>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span
+                class="font-display font-extrabold text-violet text-lg leading-none mt-0.5">05</span>
+              <p class="text-sm sm:text-base font-bold text-ink leading-snug">完成度よりも、考えた過程や挑戦を評価する</p>
+            </div>
+            <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm flex items-start gap-3.5"><span
+                class="font-display font-extrabold text-leaf text-lg leading-none mt-0.5">06</span>
+              <p class="text-sm sm:text-base font-bold text-ink leading-snug">作品を作って終わりにせず、誰かに伝える経験まで行う</p>
+            </div>
           </div>
         </div>
       </div>
@@ -286,7 +393,8 @@
     <section id="process" class="py-16 sm:py-24 bg-ivory bg-dot-pattern">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="text-center max-w-3xl mx-auto mb-14">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-leaf/25 text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3 shadow-sm">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-leaf/25 text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3 shadow-sm">
             BRAND CONCEPT
           </div>
           <h2 class="font-display font-extrabold text-2xl sm:text-4xl text-ink tracking-tight mb-3">
@@ -298,12 +406,18 @@
         </div>
 
         <div class="grid lg:grid-cols-3 gap-6 sm:gap-8">
-          <div class="bg-white rounded-3xl p-7 sm:p-8 border-t-4 border-amber shadow-soft flex flex-col justify-between">
+          <div
+            class="bg-white rounded-3xl p-7 sm:p-8 border-t-4 border-amber shadow-soft flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-5">
-                <span class="font-display font-extrabold text-sm tracking-widest text-amber bg-amber/10 px-3 py-1 rounded-full">PROCESS 01</span>
+                <span
+                  class="font-display font-extrabold text-sm tracking-widest text-amber bg-amber/10 px-3 py-1 rounded-full">PROCESS
+                  01</span>
                 <div class="w-12 h-12 rounded-2xl bg-amber/15 text-amber flex items-center justify-center">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
                 </div>
               </div>
               <h3 class="font-maru font-black text-2xl text-ink mb-2">DISCOVER｜発見する</h3>
@@ -320,17 +434,25 @@
           <div class="bg-white rounded-3xl p-7 sm:p-8 border-t-4 border-leaf shadow-soft flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-5">
-                <span class="font-display font-extrabold text-sm tracking-widest text-leaf bg-leaf/10 px-3 py-1 rounded-full">PROCESS 02</span>
+                <span
+                  class="font-display font-extrabold text-sm tracking-widest text-leaf bg-leaf/10 px-3 py-1 rounded-full">PROCESS
+                  02</span>
                 <div class="w-12 h-12 rounded-2xl bg-leaf/15 text-leaf flex items-center justify-center">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"
+                      d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                  </svg>
                 </div>
               </div>
               <h3 class="font-maru font-black text-2xl text-ink mb-2">MAKE｜形にする</h3>
-              <p class="text-sm sm:text-base text-slate mb-6 leading-relaxed">デジタル技術やものづくりを通して、自分のアイデアを実際の作品にするステップです。</p>
+              <p class="text-sm sm:text-base text-slate mb-6 leading-relaxed">デジタル技術やものづくりを通して、自分のアイデアを実際の作品にするステップです。
+              </p>
             </div>
             <ul class="space-y-2.5 bg-ivory p-5 rounded-2xl text-sm font-bold text-ink border border-gray-100">
-              <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-leaf"></span>デザインを考える・2D/3Dデータを作る</li>
-              <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-leaf"></span>レーザーカッターや3Dプリンターなどを活用する</li>
+              <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-leaf"></span>デザインを考える・2D/3Dデータを作る
+              </li>
+              <li class="flex items-center gap-2"><span
+                  class="w-2 h-2 rounded-full bg-leaf"></span>レーザーカッターや3Dプリンターなどを活用する</li>
               <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-leaf"></span>試行錯誤しながら作品を作る</li>
               <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-leaf"></span>失敗を改善につなげる</li>
             </ul>
@@ -339,30 +461,42 @@
           <div class="bg-white rounded-3xl p-7 sm:p-8 border-t-4 border-sky shadow-soft flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between mb-5">
-                <span class="font-display font-extrabold text-sm tracking-widest text-sky bg-sky/10 px-3 py-1 rounded-full">PROCESS 03</span>
+                <span
+                  class="font-display font-extrabold text-sm tracking-widest text-sky bg-sky/10 px-3 py-1 rounded-full">PROCESS
+                  03</span>
                 <div class="w-12 h-12 rounded-2xl bg-sky/15 text-sky flex items-center justify-center">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"
+                      d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  </svg>
                 </div>
               </div>
               <h3 class="font-maru font-black text-2xl text-ink mb-2">STORY｜伝える</h3>
-              <p class="text-sm sm:text-base text-slate mb-6 leading-relaxed">完成した作品だけでなく、そこに込めた思いや制作過程を自分の言葉で伝えるステップです。</p>
+              <p class="text-sm sm:text-base text-slate mb-6 leading-relaxed">完成した作品だけでなく、そこに込めた思いや制作過程を自分の言葉で伝えるステップです。
+              </p>
             </div>
             <ul class="space-y-2.5 bg-ivory p-5 rounded-2xl text-sm font-bold text-ink border border-gray-100">
               <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky"></span>作品のコンセプトを考える</li>
               <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky"></span>制作過程を振り返る</li>
-              <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky"></span>動画やプレゼンテーションで表現する</li>
+              <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky"></span>動画やプレゼンテーションで表現する
+              </li>
               <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-sky"></span>誰かに伝え、反応を受け取る</li>
             </ul>
           </div>
         </div>
 
-        <div class="mt-10 bg-gradient-to-r from-white via-sage/70 to-white rounded-3xl p-8 sm:p-10 border-2 border-leaf/30 shadow-soft text-center relative overflow-hidden">
+        <div
+          class="mt-10 bg-gradient-to-r from-white via-sage/70 to-white rounded-3xl p-8 sm:p-10 border-2 border-leaf/30 shadow-soft text-center relative overflow-hidden">
           <div class="h-1.5 w-full kaika-gradient-bar absolute top-0 left-0"></div>
           <div class="inline-flex flex-col items-center">
-            <div class="w-20 h-20 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center mb-4">
-              <svg class="w-14 h-14 animate-spin-slow" viewBox="0 0 120 120"><use href="#kaika-flower-logo"></use></svg>
+            <div
+              class="w-20 h-20 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center mb-4">
+              <svg class="w-14 h-14 animate-spin-slow" viewBox="0 0 120 120">
+                <use href="#kaika-flower-logo"></use>
+              </svg>
             </div>
-            <span class="font-display font-extrabold text-xs tracking-[0.25em] text-leaf uppercase mb-2">THE GOAL OF 3 PROCESSES</span>
+            <span class="font-display font-extrabold text-xs tracking-[0.25em] text-leaf uppercase mb-2">THE GOAL OF 3
+              PROCESSES</span>
             <h3 class="font-maru font-black text-2xl sm:text-3xl lg:text-4xl text-ink leading-snug mb-3">
               「発見する。つくる。伝える。<span class="kaika-gradient-text">自分らしく、開花する。</span>」
             </h3>
@@ -378,7 +512,8 @@
     <section id="tools" class="py-16 sm:py-24 bg-white">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="text-center max-w-3xl mx-auto mb-12">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
             TOOLS & TECHNOLOGIES
           </div>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink mb-4">アイデアを形にするための「道具」たち</h2>
@@ -391,50 +526,561 @@
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 mb-10">
           <div class="bg-ivory rounded-3xl p-6 border border-gray-200/80">
             <div class="w-12 h-12 rounded-2xl bg-amber/15 text-amber flex items-center justify-center mb-4">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
             </div>
             <h3 class="font-maru font-black text-lg text-ink mb-2">2Dデザイン ＆ レーザーカッター</h3>
-            <p class="text-sm text-slate leading-relaxed">パソコンで描いた線や図形をもとに、レーザーの光で木材やアクリル板を精密にカット・彫刻。平面から立体を組み立てる設計も体験します。</p>
+            <p class="text-sm text-slate leading-relaxed">
+              パソコンで描いた線や図形をもとに、レーザーの光で木材やアクリル板を精密にカット・彫刻。平面から立体を組み立てる設計も体験します。</p>
           </div>
 
           <div class="bg-ivory rounded-3xl p-6 border border-gray-200/80">
             <div class="w-12 h-12 rounded-2xl bg-leaf/15 text-leaf flex items-center justify-center mb-4">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+              </svg>
             </div>
             <h3 class="font-maru font-black text-lg text-ink mb-2">3D CAD（Tinkercad等）＆ 3Dプリンター</h3>
-            <p class="text-sm text-slate leading-relaxed">直感的に使える3D設計ソフト「Tinkercad」などで立体データをモデリングし、3Dプリンターで自分だけのオリジナルパーツを生み出します。</p>
+            <p class="text-sm text-slate leading-relaxed">
+              直感的に使える3D設計ソフト「Tinkercad」などで立体データをモデリングし、3Dプリンターで自分だけのオリジナルパーツを生み出します。</p>
           </div>
 
           <div class="bg-ivory rounded-3xl p-6 border border-gray-200/80">
             <div class="w-12 h-12 rounded-2xl bg-sky/15 text-sky flex items-center justify-center mb-4">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
             </div>
             <h3 class="font-maru font-black text-lg text-ink mb-2">歯車・モーター・電子部品</h3>
-            <p class="text-sm text-slate leading-relaxed">形を作るだけでなく、歯車の仕組みやモーター、LEDなどの電子部品を組み合わせて、作品に「動き」や「仕掛け」を取り入れます。</p>
+            <p class="text-sm text-slate leading-relaxed">形を作るだけでなく、歯車の仕組みやモーター、LEDなどの電子部品を組み合わせて、作品に「動き」や「仕掛け」を取り入れます。
+            </p>
           </div>
 
-          <div class="bg-ivory rounded-3xl p-6 border border-gray-200/80 sm:col-span-2 lg:col-span-3 flex flex-col sm:flex-row items-start sm:items-center gap-5">
+          <div
+            class="bg-ivory rounded-3xl p-6 border border-gray-200/80 sm:col-span-2 lg:col-span-3 flex flex-col sm:flex-row items-start sm:items-center gap-5">
             <div class="w-12 h-12 rounded-2xl bg-violet/15 text-violet flex items-center justify-center shrink-0">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"/></svg>
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+              </svg>
             </div>
             <div>
               <h3 class="font-maru font-black text-lg text-ink mb-1">動画制作・プレゼンテーション</h3>
-              <p class="text-sm text-slate leading-relaxed">「なぜこれを作ったのか」「どこを工夫したのか」を整理し、作品紹介動画の企画・撮影・編集や、最終発表会でのプレゼンテーション資料を作成します。</p>
+              <p class="text-sm text-slate leading-relaxed">
+                「なぜこれを作ったのか」「どこを工夫したのか」を整理し、作品紹介動画の企画・撮影・編集や、最終発表会でのプレゼンテーション資料を作成します。</p>
             </div>
           </div>
         </div>
 
-        <div class="bg-sage/70 border-2 border-leaf/30 rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row items-start gap-4">
+        <div
+          class="bg-sage/70 border-2 border-leaf/30 rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row items-start gap-4">
           <div class="w-10 h-10 rounded-xl bg-leaf text-white flex items-center justify-center shrink-0 mt-0.5">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
           </div>
           <div>
             <h4 class="font-bold text-base text-ink mb-1">工作機械の安全管理について（保護者の方へ）</h4>
             <p class="text-xs sm:text-sm text-slate leading-relaxed">
-              レーザーカッターなどの加工機械を、お子さまが単独で自由に操作することはありません。機械の加工操作はスタッフが徹底した安全管理のもとで行い、子どもたちは<strong class="text-ink">「設計データの作成」「制作方法の検討」「組み立て・加工後の仕上げ」「試行錯誤と改善」</strong>に集中して取り組みます。
+              レーザーカッターなどの加工機械を、お子さまが単独で自由に操作することはありません。機械の加工操作はスタッフが徹底した安全管理のもとで行い、子どもたちは<strong
+                class="text-ink">「設計データの作成」「制作方法の検討」「組み立て・加工後の仕上げ」「試行錯誤と改善」</strong>に集中して取り組みます。
             </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+     MODEL CASES SECTION (KAIKA 実践モデルケース)
+     ========================================== -->
+    <style>
+      .kaika-cases-section {
+        padding: 80px 20px;
+        background-color: transparent;
+        /* 既存のドット背景を活かすため透明に */
+        font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+        color: #1f2937;
+      }
+
+      .kaika-cases-container {
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+
+      /* ヘッダー部分 */
+      .kaika-cases-header {
+        text-align: center;
+        margin-bottom: 56px;
+      }
+
+      .kaika-cases-eyebrow {
+        display: inline-block;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        color: #10b981;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        padding: 6px 18px;
+        border-radius: 999px;
+        margin-bottom: 16px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+      }
+
+      .kaika-cases-title {
+        font-size: clamp(1.6rem, 3.5vw, 2.25rem);
+        font-weight: 800;
+        line-height: 1.4;
+        margin: 0 0 20px;
+        color: #111827;
+      }
+
+      .kaika-cases-lead {
+        max-width: 760px;
+        margin: 0 auto;
+        font-size: 0.98rem;
+        line-height: 1.8;
+        color: #6b7280;
+      }
+
+      /* 3カラムグリッド */
+      .kaika-cases-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+        margin-bottom: 48px;
+      }
+
+      @media (max-width: 960px) {
+        .kaika-cases-grid {
+          grid-template-columns: 1fr;
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+      /* カードデザイン（3つのプロセスカードと統一） */
+      .kaika-case-card {
+        position: relative;
+        background: #ffffff;
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+        border: 1px solid #e5e7eb;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+
+      /* カード上部のアクセントライン（オレンジ・グリーン・ブルー） */
+      .kaika-case-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        z-index: 2;
+      }
+
+      .kaika-case-card:nth-child(1)::before {
+        background: #f59e0b;
+      }
+
+      .kaika-case-card:nth-child(2)::before {
+        background: #10b981;
+      }
+
+      .kaika-case-card:nth-child(3)::before {
+        background: #3b82f6;
+      }
+
+      .kaika-case-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.07);
+      }
+
+      /* 画像エリア（16:10比率） */
+      .kaika-case-image-wrap {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 10;
+        background-color: #f9fafb;
+        overflow: hidden;
+        border-bottom: 1px solid #f3f4f6;
+      }
+
+      .kaika-case-image-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+      }
+
+      .kaika-case-card:hover .kaika-case-image-wrap img {
+        transform: scale(1.04);
+      }
+
+      /* 黒塗りをやめ、清潔感のある白カプセルバッジに変更 */
+      .kaika-case-badge {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(6px);
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        padding: 5px 14px;
+        border-radius: 999px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+      }
+
+      .kaika-case-card:nth-child(1) .kaika-case-badge {
+        color: #d97706;
+      }
+
+      .kaika-case-card:nth-child(2) .kaika-case-badge {
+        color: #059669;
+      }
+
+      .kaika-case-card:nth-child(3) .kaika-case-badge {
+        color: #2563eb;
+      }
+
+      /* カード本文エリア */
+      .kaika-case-body {
+        padding: 28px 24px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .kaika-case-sub {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 6px;
+      }
+
+      .kaika-case-card:nth-child(1) .kaika-case-sub {
+        color: #d97706;
+      }
+
+      .kaika-case-card:nth-child(2) .kaika-case-sub {
+        color: #059669;
+      }
+
+      .kaika-case-card:nth-child(3) .kaika-case-sub {
+        color: #2563eb;
+      }
+
+      .kaika-case-heading {
+        font-size: 1.18rem;
+        font-weight: 800;
+        line-height: 1.4;
+        margin: 0 0 14px;
+        color: #111827;
+      }
+
+      .kaika-case-catch {
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 1.6;
+        color: #374151;
+        background: #f9fafb;
+        border-left: 3px solid #d1d5db;
+        padding: 10px 12px;
+        margin-bottom: 20px;
+        border-radius: 0 8px 8px 0;
+      }
+
+      .kaika-case-card:nth-child(1) .kaika-case-catch {
+        border-left-color: #f59e0b;
+      }
+
+      .kaika-case-card:nth-child(2) .kaika-case-catch {
+        border-left-color: #10b981;
+      }
+
+      .kaika-case-card:nth-child(3) .kaika-case-catch {
+        border-left-color: #3b82f6;
+      }
+
+      /* 3ステップリスト */
+      .kaika-case-steps {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      .kaika-case-step {
+        font-size: 0.88rem;
+        line-height: 1.65;
+        color: #4b5563;
+      }
+
+      .kaika-step-tag {
+        display: inline-block;
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+
+      /* PROCESS 01〜03の配色と完全統一 */
+      .tag-discover {
+        background: #fff7ed;
+        color: #ea580c;
+        border: 1px solid #ffedd5;
+      }
+
+      .tag-make {
+        background: #ecfdf5;
+        color: #059669;
+        border: 1px solid #d1fae5;
+      }
+
+      .tag-story {
+        background: #eff6ff;
+        color: #2563eb;
+        border: 1px solid #dbeafe;
+      }
+
+      /* 保護者へのメッセージ枠 */
+      .kaika-case-parent {
+        margin-top: auto;
+        background: #fafafa;
+        border: 1px solid #e5e7eb;
+        border-radius: 14px;
+        padding: 14px 16px;
+        font-size: 0.84rem;
+        line-height: 1.65;
+        color: #4b5563;
+      }
+
+      .kaika-case-parent strong {
+        display: block;
+        font-size: 0.78rem;
+        color: #059669;
+        margin-bottom: 4px;
+      }
+
+      /* ★修正ポイント：セクション下部まとめボックス
+     （THE GOAL OF 3 PROCESSES と同じ白カード＋上部グラデーションラインに統一） */
+      .kaika-cases-outro {
+        position: relative;
+        background: #ffffff;
+        color: #1f2937;
+        border-radius: 24px;
+        padding: 44px 36px;
+        text-align: center;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.04);
+        overflow: hidden;
+      }
+
+      /* 上部のカラフルなグラデーションライン */
+      .kaika-cases-outro::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: linear-gradient(90deg, #f59e0b 0%, #ec4899 35%, #10b981 70%, #3b82f6 100%);
+      }
+
+      .kaika-cases-outro-label {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        color: #9ca3af;
+        margin-bottom: 10px;
+      }
+
+      .kaika-cases-outro h3 {
+        font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+        font-weight: 800;
+        line-height: 1.45;
+        margin: 0 0 16px;
+        color: #111827;
+      }
+
+      .kaika-cases-outro h3 span {
+        color: #10b981;
+        /* 既存LPと同じグリーンのアクセント文字 */
+      }
+
+      .kaika-cases-outro p {
+        font-size: 0.95rem;
+        line-height: 1.85;
+        color: #6b7280;
+        max-width: 760px;
+        margin: 0 auto;
+      }
+
+      .kaika-cases-outro p strong {
+        display: inline-block;
+        margin-top: 10px;
+        color: #059669;
+        font-size: 1.05rem;
+        font-weight: 800;
+        background: #ecfdf5;
+        padding: 6px 18px;
+        border-radius: 999px;
+      }
+    </style>
+
+    <section id="model-cases" class="kaika-cases-section">
+      <div class="kaika-cases-container">
+
+        <!-- セクション見出し -->
+        <div class="kaika-cases-header">
+          <span class="kaika-cases-eyebrow">MODEL CASES OF "KAIKA"</span>
+          <h2 class="kaika-cases-title">
+            「好き」が形になり、世界とつながる。<br>
+            TukuriEから生まれている「開花」のリアルな実践例
+          </h2>
+          <p class="kaika-cases-lead">
+            KAIKA
+            Projectは今回が第1期の募集ですが、シェア工房TukuriEではすでに、子どもたちが自分の「好き」や「やってみたい」を起点に、デジタル機材を使って作品を創り出し、社会とつながる活動が始まっています。<br>
+            KAIKAの3つのプロセス（発見する・つくる・伝える）を体現する、3つのリアルなモデルケースをご紹介します。
+          </p>
+        </div>
+
+        <!-- 3つのモデルケースカード -->
+        <div class="kaika-cases-grid">
+
+          <!-- CASE 01：押しボタン -->
+          <article class="kaika-case-card">
+            <div class="kaika-case-image-wrap">
+              <!-- ★ここに押しボタンの画像パスを入れてください -->
+              <img src="images/case01-button.jpg" alt="レーザーカッターと電子部品で制作したオリジナル押しボタン作品" loading="lazy">
+              <span class="kaika-case-badge">CASE 01</span>
+            </div>
+            <div class="kaika-case-body">
+              <div class="kaika-case-sub">マニアックな「偏愛」を、唯一無二の専門性へ</div>
+              <h3 class="kaika-case-heading">オリジナル押しボタン制作の探究</h3>
+              <p class="kaika-case-catch">
+                「ただボタンを押すのが好き」から、自分だけのボタンを創り出すクリエイターへ。
+              </p>
+              <ul class="kaika-case-steps">
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-discover">01. DISCOVER</span>
+                  日常の中で見つけた「エレベーターや機械の押しボタンがたまらなく好き」という強い好奇心。「見る・押す」だけでなく「自分だけの最高のボタンを作ってみたい」という問いが生まれました。
+                </li>
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-make">02. MAKE</span>
+                  レーザーカッターでの木材加工や3Dプリンター、LEDなどの電子部品を組み合わせ、押し心地や光り方に徹底的にこだわったオリジナルの押しボタンを設計・制作。何度も試作を重ねて仕組みを追求しました。
+                </li>
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-story">03. STORY</span>
+                  作品や制作過程を発信したことで、その熱量が周囲に伝播。自分の言葉でこだわりを語り、ワークショップの開催やメディアでの紹介など、同じ「好き」を持つ人たちや企業とつながる活動へと広がっています。
+                </li>
+              </ul>
+              <div class="kaika-case-parent">
+                <strong>💡 保護者の方へ</strong>
+                一見ニッチでマニアックなこだわりも、否定せずに「つくる環境」と掛け合わせることで、誰にも真似できない自信と専門性に変わります。
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE 02：スタンプ -->
+          <article class="kaika-case-card">
+            <div class="kaika-case-image-wrap">
+              <!-- ★ここにスタンプ＆メッセージカードの画像パスを入れてください -->
+              <img src="images/case02-stamp.jpg" alt="レーザー彫刻で制作したオリジナルスタンプとメッセージカード" loading="lazy">
+              <span class="kaika-case-badge">CASE 02</span>
+            </div>
+            <div class="kaika-case-body">
+              <div class="kaika-case-sub">自分の「好き！」を、誰かを喜ばせるプロダクトへ</div>
+              <h3 class="kaika-case-heading">デジタル加工を活用したオリジナルスタンプ活動</h3>
+              <p class="kaika-case-catch">
+                「ありがとう」を伝える手紙に着目。相手を想って押すスタンプから、メッセージカードづくりの体験へ。
+              </p>
+              <ul class="kaika-case-steps">
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-discover">01. DISCOVER</span>
+                  「絵を描くのが好き」「スタンプをポンポン押すのが楽しい」という身近な遊び心と、「手紙でありがとうを伝えたい」という想い。「自分が考えたデザインをそのままスタンプにできないか？」というアイデアからスタートしました。
+                </li>
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-make">02. MAKE</span>
+                  手描きのイラストやデザインをデジタルデータ化し、レーザーカッターでゴム印面や持ち手の木材を精密に彫刻・カット。どうすれば綺麗にインクが乗るか、押しやすい持ち手になるかを試行錯誤しながら形にしました。
+                </li>
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-story">03. STORY</span>
+                  完成したスタンプを使った「メッセージカードづくりワークショップ」を自ら企画・開催。「かわいい！」という反応を直接受け取るだけでなく、参加者が大切な人へ想いを伝える場と体験までをデザインしました。
+                </li>
+              </ul>
+              <div class="kaika-case-parent">
+                <strong>💡 保護者の方へ</strong>
+                普段のお絵描きや工作も、本格的なデジタル工作機械と出会い、誰かを想う気持ちと重なることで、「自分の作品で人を笑顔にする体験」へと進化します。
+              </div>
+            </div>
+          </article>
+
+          <!-- CASE 03：お寿司マン -->
+          <article class="kaika-case-card">
+            <div class="kaika-case-image-wrap">
+              <!-- ★ここにお寿司マンの作品画像パスを入れてください -->
+              <img src="images/case03-osushiman.jpg" alt="オリジナルキャラクターお寿司マンの立体作品とストーリー展開" loading="lazy">
+              <span class="kaika-case-badge">CASE 03</span>
+            </div>
+            <div class="kaika-case-body">
+              <div class="kaika-case-sub">自由な「妄想・世界観」を、現実世界に飛び出させる</div>
+              <h3 class="kaika-case-heading">オリジナルキャラクター「お寿司マン」の展開</h3>
+              <p class="kaika-case-catch">
+                頭の中にあったユニークなキャラクターに、デジタル技術とAIで命とストーリーを吹き込む。
+              </p>
+              <ul class="kaika-case-steps">
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-discover">01. DISCOVER</span>
+                  ふとした瞬間に生まれた「お寿司マン」というユニークなキャラクターのアイデア。「紙の上だけでなく、このキャラクターをもっと色んな形にして動かしたい！」という自由な発想が原動力になりました。
+                </li>
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-make">02. MAKE</span>
+                  2Dデザインや3Dモデリング、工房のさまざまな機材を駆使して、平面のイラストから立体パーツやグッズへと展開。頭の中のイメージをどうすれば現実の形にできるか、道具を選びながら具現化していきました。
+                </li>
+                <li class="kaika-case-step">
+                  <span class="kaika-step-tag tag-story">03. STORY</span>
+                  キャラクターの設定や背景にある世界観を、生成AIも活用しながら「物語」として表現。「なぜこの形なのか」「どんなキャラクターなのか」をストーリー仕立てでプレゼンテーションし、独自のワールドを周囲に伝えています。
+                </li>
+              </ul>
+              <div class="kaika-case-parent">
+                <strong>💡 保護者の方へ</strong>
+                子どもならではの突拍子もないアイデアや空想も、形にして伝えるプロセスを経ることで、立派な「クリエイティブ作品」として花開きます。
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- セクション締めくくり（白ベース＋上部グラデーションライン） -->
+        <div class="kaika-cases-outro">
+          <span class="kaika-cases-outro-label">FROM SMALL "LIKE" TO "KAIKA"</span>
+          <h3>最初はみんな、<span>小さな「やってみたい」</span>から始まりました。</h3>
+          <p>
+            最初から高度なパソコンスキルや、明確な目標があったわけではありません。<br>
+            「ボタンが好き」「手紙に押すスタンプを作りたい」「お寿司マンを形にしたい」——そんな子どもの純粋な「好き」に、工房の道具と大人の伴走が加わった結果、子どもたちは失敗を恐れずに試行錯誤し、自分の言葉で作品を語れるようになりました。<br>
+            <strong>次は、あなたのお子さまの「好き」が開花する番です。</strong>
+          </p>
+        </div>
+
       </div>
     </section>
 
@@ -442,7 +1088,8 @@
     <section id="curriculum" class="py-16 sm:py-24 bg-ivory border-t border-gray-200/60">
       <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <div class="text-center max-w-3xl mx-auto mb-10">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-leaf/25 text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-leaf/25 text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
             CURRICULUM & SCHEDULE
           </div>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink mb-4">全10回のカリキュラムと開催日程</h2>
@@ -452,23 +1099,31 @@
           </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-200 shadow-sm mb-8 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
-          <div><span class="block text-xs text-slate font-bold">開講日（第1回）</span><span class="font-maru font-black text-base sm:text-lg text-leaf">2027年1月17日（日）</span></div>
-          <div><span class="block text-xs text-slate font-bold">開催ペース</span><span class="font-maru font-black text-base sm:text-lg text-ink">隔週日曜日（全10回）</span></div>
-          <div><span class="block text-xs text-slate font-bold">開催時間</span><span class="font-maru font-black text-base sm:text-lg text-ink">10:00〜12:30（150分）</span></div>
-          <div><span class="block text-xs text-slate font-bold">最終発表会（第10回）</span><span class="font-maru font-black text-base sm:text-lg text-amber">2027年5月23日（日）</span></div>
+        <div
+          class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-200 shadow-sm mb-8 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+          <div><span class="block text-xs text-slate font-bold">開講日（第1回）</span><span
+              class="font-maru font-black text-base sm:text-lg text-leaf">2027年1月17日（日）</span></div>
+          <div><span class="block text-xs text-slate font-bold">開催ペース</span><span
+              class="font-maru font-black text-base sm:text-lg text-ink">隔週日曜日（全10回）</span></div>
+          <div><span class="block text-xs text-slate font-bold">開催時間</span><span
+              class="font-maru font-black text-base sm:text-lg text-ink">10:00〜12:30（150分）</span></div>
+          <div><span class="block text-xs text-slate font-bold">最終発表会（第10回）</span><span
+              class="font-maru font-black text-base sm:text-lg text-amber">2027年5月23日（日）</span></div>
         </div>
 
         <div class="flex justify-center mb-8">
           <div class="inline-flex bg-cream p-1.5 rounded-full border border-gray-200">
-            <button onclick="switchCurriculumView('cards')" id="btn-view-cards" class="px-5 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-ink shadow-sm transition-all">タイムライン詳細表示</button>
-            <button onclick="switchCurriculumView('table')" id="btn-view-table" class="px-5 py-2 rounded-full text-xs sm:text-sm font-bold text-slate hover:text-ink transition-all">日程・テーマ早見一覧表</button>
+            <button onclick="switchCurriculumView('cards')" id="btn-view-cards"
+              class="px-5 py-2 rounded-full text-xs sm:text-sm font-bold bg-white text-ink shadow-sm transition-all">タイムライン詳細表示</button>
+            <button onclick="switchCurriculumView('table')" id="btn-view-table"
+              class="px-5 py-2 rounded-full text-xs sm:text-sm font-bold text-slate hover:text-ink transition-all">日程・テーマ早見一覧表</button>
           </div>
         </div>
 
         <div id="curriculum-cards-container" class="grid sm:grid-cols-2 gap-4 sm:gap-5"></div>
 
-        <div id="curriculum-table-container" class="hidden bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden">
+        <div id="curriculum-table-container"
+          class="hidden bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden">
           <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
               <thead>
@@ -483,8 +1138,10 @@
           </div>
         </div>
 
-        <div class="mt-8 bg-white rounded-2xl p-5 sm:p-6 border border-amber/40 text-xs sm:text-sm text-slate space-y-1.5 leading-relaxed">
-          <p class="font-bold text-ink flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-amber"></span>開催日程に関するご案内</p>
+        <div
+          class="mt-8 bg-white rounded-2xl p-5 sm:p-6 border border-amber/40 text-xs sm:text-sm text-slate space-y-1.5 leading-relaxed">
+          <p class="font-bold text-ink flex items-center gap-2"><span
+              class="w-2 h-2 rounded-full bg-amber"></span>開催日程に関するご案内</p>
           <p>・開催日程は現時点での予定です。講師や会場の都合、その他の事情により、日程が変更となる場合があります。</p>
           <p>・変更が生じた場合は、参加者・保護者の皆さまへ事前にご連絡いたします。</p>
           <p class="font-bold text-leaf pt-1">※最新の開催日程は、本Webサイトまたは主催者からのご案内をご確認ください。</p>
@@ -496,20 +1153,35 @@
     <section class="py-16 sm:py-24 bg-white">
       <div class="max-w-5xl mx-auto px-4 sm:px-6">
         <div class="text-center max-w-3xl mx-auto mb-12">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">RECOMMENDED FOR</div>
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
+            RECOMMENDED FOR</div>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink mb-4">こんなお子さまにおすすめです</h2>
         </div>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 mb-10">
-          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span class="w-8 h-8 rounded-full bg-amber/20 text-amber font-black flex items-center justify-center shrink-0">✓</span><span class="font-bold text-sm sm:text-base text-ink">工作やものづくりが好き</span></div>
-          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span class="w-8 h-8 rounded-full bg-leaf/20 text-leaf font-black flex items-center justify-center shrink-0">✓</span><span class="font-bold text-sm sm:text-base text-ink">絵を描いたりデザインしたりするのが好き</span></div>
-          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span class="w-8 h-8 rounded-full bg-sky/20 text-sky font-black flex items-center justify-center shrink-0">✓</span><span class="font-bold text-sm sm:text-base text-ink">ゲームや乗り物、機械の仕組みに興味がある</span></div>
-          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span class="w-8 h-8 rounded-full bg-coral/20 text-coral font-black flex items-center justify-center shrink-0">✓</span><span class="font-bold text-sm sm:text-base text-ink">自分だけのオリジナル作品を作ってみたい</span></div>
-          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span class="w-8 h-8 rounded-full bg-violet/20 text-violet font-black flex items-center justify-center shrink-0">✓</span><span class="font-bold text-sm sm:text-base text-ink">学校以外に何か新しいことに挑戦してみたい</span></div>
-          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span class="w-8 h-8 rounded-full bg-leaf/20 text-leaf font-black flex items-center justify-center shrink-0">✓</span><span class="font-bold text-sm sm:text-base text-ink">まだ好きなことが分からないけれど、いろいろ試してみたい</span></div>
+          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span
+              class="w-8 h-8 rounded-full bg-amber/20 text-amber font-black flex items-center justify-center shrink-0">✓</span><span
+              class="font-bold text-sm sm:text-base text-ink">工作やものづくりが好き</span></div>
+          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span
+              class="w-8 h-8 rounded-full bg-leaf/20 text-leaf font-black flex items-center justify-center shrink-0">✓</span><span
+              class="font-bold text-sm sm:text-base text-ink">絵を描いたりデザインしたりするのが好き</span></div>
+          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span
+              class="w-8 h-8 rounded-full bg-sky/20 text-sky font-black flex items-center justify-center shrink-0">✓</span><span
+              class="font-bold text-sm sm:text-base text-ink">ゲームや乗り物、機械の仕組みに興味がある</span></div>
+          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span
+              class="w-8 h-8 rounded-full bg-coral/20 text-coral font-black flex items-center justify-center shrink-0">✓</span><span
+              class="font-bold text-sm sm:text-base text-ink">自分だけのオリジナル作品を作ってみたい</span></div>
+          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span
+              class="w-8 h-8 rounded-full bg-violet/20 text-violet font-black flex items-center justify-center shrink-0">✓</span><span
+              class="font-bold text-sm sm:text-base text-ink">学校以外に何か新しいことに挑戦してみたい</span></div>
+          <div class="bg-ivory rounded-2xl p-5 border border-gray-200/80 flex items-center gap-3.5"><span
+              class="w-8 h-8 rounded-full bg-leaf/20 text-leaf font-black flex items-center justify-center shrink-0">✓</span><span
+              class="font-bold text-sm sm:text-base text-ink">まだ好きなことが分からないけれど、いろいろ試してみたい</span></div>
         </div>
 
-        <div class="bg-gradient-to-r from-sage/70 via-sage to-sage/70 rounded-3xl p-6 sm:p-8 text-center border border-leaf/25">
+        <div
+          class="bg-gradient-to-r from-sage/70 via-sage to-sage/70 rounded-3xl p-6 sm:p-8 text-center border border-leaf/25">
           <p class="font-maru font-black text-lg sm:text-xl text-ink mb-2">最初から「作りたいもの」が決まっていなくても大丈夫！</p>
           <p class="text-sm sm:text-base text-slate max-w-2xl mx-auto leading-relaxed">
             第1回の「DISCOVER（自分を知る）」で、マインドマップを使いながら自分の興味や「やってみたい」を一緒に掘り下げていきます。デジタル工作が初めてのお子さまも安心してご参加ください。
@@ -525,21 +1197,31 @@
           <div class="h-1.5 w-full kaika-gradient-bar absolute top-0 left-0"></div>
           <div class="grid lg:grid-cols-12 gap-8 items-center">
             <div class="lg:col-span-7 space-y-4">
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber/15 text-amber font-display font-extrabold text-xs tracking-widest uppercase">FINAL PRESENTATION : SESSION 10</div>
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber/15 text-amber font-display font-extrabold text-xs tracking-widest uppercase">
+                FINAL PRESENTATION : SESSION 10</div>
               <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink leading-snug">第10回 最終成果発表会「SAKU」</h2>
               <p class="text-sm sm:text-base text-slate leading-relaxed">
                 約5か月間の集大成として、最終回（2027年5月23日予定）に成果発表会「SAKU」を開催します。<br>
-                単に完成した作品を並べるだけではなく、<strong class="text-ink">「どんな思いで企画したのか」「どんな失敗を乗り越えて工夫したのか」という一人ひとりの挑戦と成長のストーリー</strong>をご家族や地域の皆さまの前で発表し、みんなで認め合う温かい場です。
+                単に完成した作品を並べるだけではなく、<strong
+                  class="text-ink">「どんな思いで企画したのか」「どんな失敗を乗り越えて工夫したのか」という一人ひとりの挑戦と成長のストーリー</strong>をご家族や地域の皆さまの前で発表し、みんなで認め合う温かい場です。
               </p>
               <div class="grid grid-cols-2 gap-3 pt-2">
-                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">・オリジナル作品の展示</div>
-                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">・プレゼンテーション発表</div>
-                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">・制作ストーリー動画の共有</div>
-                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">・修了証の授与</div>
+                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">
+                  ・オリジナル作品の展示</div>
+                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">
+                  ・プレゼンテーション発表</div>
+                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">
+                  ・制作ストーリー動画の共有</div>
+                <div class="bg-ivory p-3.5 rounded-xl border border-gray-100 text-xs sm:text-sm font-bold text-ink">
+                  ・修了証の授与</div>
               </div>
             </div>
-            <div class="lg:col-span-5 flex flex-col items-center justify-center bg-ivory rounded-2xl p-6 border border-gray-100 text-center">
-              <svg class="w-24 h-24 mb-3" viewBox="0 0 120 120"><use href="#kaika-flower-logo"></use></svg>
+            <div
+              class="lg:col-span-5 flex flex-col items-center justify-center bg-ivory rounded-2xl p-6 border border-gray-100 text-center">
+              <svg class="w-24 h-24 mb-3" viewBox="0 0 120 120">
+                <use href="#kaika-flower-logo"></use>
+              </svg>
               <span class="font-display font-extrabold text-xl tracking-widest text-ink">SAKU</span>
               <span class="text-xs font-bold text-leaf mt-1">一人ひとりの挑戦が咲く日</span>
               <p class="text-xs text-slate mt-3 leading-relaxed">ご家族の皆さまにもご観覧いただき、お子さまが自分の言葉で堂々と伝える姿をご覧いただけます。</p>
@@ -553,7 +1235,9 @@
     <section id="guidelines" class="py-16 sm:py-24 bg-white border-t border-gray-100">
       <div class="max-w-4xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-12">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">GUIDELINES</div>
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
+            GUIDELINES</div>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink mb-3">第1期 Basic Class 募集要項</h2>
           <p class="text-sm sm:text-base text-slate">今回の募集は第1期「Basic Class」のみとなります。</p>
         </div>
@@ -590,7 +1274,8 @@
               <dt class="font-bold text-ink">参加費・お支払い方法</dt>
               <dd class="sm:col-span-2">
                 <span class="font-maru font-black text-xl text-ink">50,000円（税込）</span>
-                <span class="ml-2 inline-block px-2.5 py-0.5 rounded-md bg-sage text-leaf text-xs font-bold">基本材料費込み</span>
+                <span
+                  class="ml-2 inline-block px-2.5 py-0.5 rounded-md bg-sage text-leaf text-xs font-bold">基本材料費込み</span>
                 <p class="text-xs sm:text-sm text-ink font-medium mt-2">・お支払い方法：銀行振込（事前振込）または 現地での現金決済（初回参加時）</p>
                 <p class="text-xs text-slate mt-0.5">※カリキュラム内で使用する標準的な木材・3Dプリンター用フィラメント・基本パーツ等の材料費が含まれます。</p>
               </dd>
@@ -605,21 +1290,25 @@
             <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4">
               <dt class="font-bold text-ink">広報・SNS掲載について</dt>
               <dd class="sm:col-span-2 text-xs sm:text-sm text-slate leading-relaxed">
-                活動風景や作品、成果発表会「SAKU」で撮影した写真・動画を、KAIKA Projectおよびシェア工房TukuriEのWebサイト・SNS等の広報活動で使用させていただきます（エントリー時にご承諾をいただきます）。
+                活動風景や作品、成果発表会「SAKU」で撮影した写真・動画を、KAIKA
+                Projectおよびシェア工房TukuriEのWebサイト・SNS等の広報活動で使用させていただきます（エントリー時にご承諾をいただきます）。
               </dd>
             </div>
             <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4">
               <dt class="font-bold text-ink">キャンセル規定</dt>
               <dd class="sm:col-span-2 text-xs sm:text-sm text-slate space-y-1">
                 <p>参加確定後にお客様都合でキャンセルされる場合、以下のキャンセル料を申し受けます。</p>
-                <p class="text-ink font-medium">・開講日の7日前まで：無料（※振込返金時の振込手数料のみご負担いただきます）<br>・開講日の6日前〜前日：参加費の30%（材料・準備手配費として）<br>・開講日当日以降および開講後の途中退会：参加費の100%（返金不可）</p>
+                <p class="text-ink font-medium">
+                  ・開講日の7日前まで：無料（※振込返金時の振込手数料のみご負担いただきます）<br>・開講日の6日前〜前日：参加費の30%（材料・準備手配費として）<br>・開講日当日以降および開講後の途中退会：参加費の100%（返金不可）
+                </p>
               </dd>
             </div>
             <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4">
               <dt class="font-bold text-ink">会場</dt>
               <dd class="sm:col-span-2 text-ink">
                 <strong>シェア工房TukuriE（ツクリエ）</strong>（千葉県君津市）<br>
-                <a href="https://tukurie.com/" target="_blank" rel="noopener noreferrer" class="text-xs text-leaf underline hover:text-forest">公式サイトでアクセス・詳細を確認する ↗</a>
+                <a href="https://tukurie.com/" target="_blank" rel="noopener noreferrer"
+                  class="text-xs text-leaf underline hover:text-forest">公式サイトでアクセス・詳細を確認する ↗</a>
               </dd>
             </div>
             <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4 bg-white">
@@ -637,73 +1326,109 @@
     <section id="faq" class="py-16 sm:py-24 bg-ivory border-t border-gray-200/60">
       <div class="max-w-4xl mx-auto px-4 sm:px-6">
         <div class="text-center mb-12">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-leaf/25 text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">FAQ</div>
+          <div
+            class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-white border border-leaf/25 text-leaf font-display font-bold text-xs tracking-widest uppercase mb-3">
+            FAQ</div>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink">よくある質問</h2>
         </div>
 
         <div class="space-y-3.5">
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>パソコンが得意でなくても参加できますか？また、パソコンは持参ですか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>パソコンが得意でなくても参加できますか？また、パソコンは持参ですか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">マウス操作や文字入力などの基本的なパソコン操作ができれば大丈夫です。プログラムにはご自宅のノートパソコン（WindowsまたはMac）をご持参いただきます。専門的なデザインソフトや3D CADの使い方は第1回から丁寧にサポートします。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              マウス操作や文字入力などの基本的なパソコン操作ができれば大丈夫です。プログラムにはご自宅のノートパソコン（WindowsまたはMac）をご持参いただきます。専門的なデザインソフトや3D
+              CADの使い方は第1回から丁寧にサポートします。</p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>ものづくりの経験がなくても大丈夫ですか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>ものづくりの経験がなくても大丈夫ですか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">もちろん大丈夫です。KAIKA Projectでは作品の完成度よりも「自分で考え、試行錯誤する過程」を大切にしています。初めての道具や技術も基礎から体験できます。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              もちろん大丈夫です。KAIKA Projectでは作品の完成度よりも「自分で考え、試行錯誤する過程」を大切にしています。初めての道具や技術も基礎から体験できます。</p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>作りたいものが決まっていなくても参加できますか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>作りたいものが決まっていなくても参加できますか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">はい、最初から決まっている必要はありません。第1回の「DISCOVER｜自分を知る」や毎回のワークを通じて、自分の好きなことや興味のあることからテーマを一緒に見つけていきます。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              はい、最初から決まっている必要はありません。第1回の「DISCOVER｜自分を知る」や毎回のワークを通じて、自分の好きなことや興味のあることからテーマを一緒に見つけていきます。</p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>プログラミング教室とは何が違いますか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>プログラミング教室とは何が違いますか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">画面の中のプログラムだけで完結するのではなく、2D/3Dデザイン、レーザーカッター、3Dプリンター、モーター機構などを組み合わせて「実際に手で触れられる作品」を創り出し、さらに動画やプレゼンで「自分の言葉で伝える」ところまで一貫して行うクリエイティブ探究プログラムです。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              画面の中のプログラムだけで完結するのではなく、2D/3Dデザイン、レーザーカッター、3Dプリンター、モーター機構などを組み合わせて「実際に手で触れられる作品」を創り出し、さらに動画やプレゼンで「自分の言葉で伝える」ところまで一貫して行うクリエイティブ探究プログラムです。
+            </p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>使用する機材は子どもが操作しますか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>使用する機材は子どもが操作しますか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">レーザーカッターなどの工作機械を子どもが自由に単独操作することはありません。機械操作はスタッフが安全管理のもとで行い、子どもたちはパソコンでの設計・制作方法の検討・組み立て・試行錯誤に安全に取り組みます。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              レーザーカッターなどの工作機械を子どもが自由に単独操作することはありません。機械操作はスタッフが安全管理のもとで行い、子どもたちはパソコンでの設計・制作方法の検討・組み立て・試行錯誤に安全に取り組みます。</p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>欠席した場合はどうなりますか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>欠席した場合はどうなりますか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">体調不良等で特定の回を欠席された場合の参加費の日割り返金はいたしませんが、次回参加時に制作が遅れないよう個別フォローや制作データのサポートを行います。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              体調不良等で特定の回を欠席された場合の参加費の日割り返金はいたしませんが、次回参加時に制作が遅れないよう個別フォローや制作データのサポートを行います。</p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>材料費は参加費に含まれますか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>材料費は参加費に含まれますか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">はい、参加費（50,000円・税込）に基本材料費が含まれています。（※特別な大型素材や特殊な追加パーツ等を個別にご希望される場合は、事前にご相談のうえご案内いたします。）</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              はい、参加費（50,000円・税込）に基本材料費が含まれています。（※特別な大型素材や特殊な追加パーツ等を個別にご希望される場合は、事前にご相談のうえご案内いたします。）</p>
           </details>
 
-          <details class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
-            <summary class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
-              <span class="flex items-center gap-3"><span class="text-leaf font-display font-extrabold">Q.</span>保護者の見学や、事前の工房見学はできますか？</span>
+          <details
+            class="group bg-white rounded-2xl border border-gray-200/80 p-5 sm:p-6 open:shadow-sm transition-all">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none font-bold text-base sm:text-lg text-ink">
+              <span class="flex items-center gap-3"><span
+                  class="text-leaf font-display font-extrabold">Q.</span>保護者の見学や、事前の工房見学はできますか？</span>
               <span class="text-leaf group-open:rotate-45 transition-transform text-xl font-bold">+</span>
             </summary>
-            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">開講前に「ミニ体験付き・工房見学会」を開催予定です（公式LINEにて日程を優先案内いたします）。また、第10回の最終成果発表会「SAKU」は保護者の皆さまにもご観覧いただけます。</p>
+            <p class="mt-3 pt-3 border-t border-gray-100 text-sm sm:text-base text-slate leading-relaxed">
+              開講前に「ミニ体験付き・工房見学会」を開催予定です（公式LINEにて日程を優先案内いたします）。また、第10回の最終成果発表会「SAKU」は保護者の皆さまにもご観覧いただけます。</p>
           </details>
         </div>
       </div>
@@ -712,9 +1437,11 @@
     <!-- SECTION 10：運営者・会場紹介 (TukuriE) -->
     <section class="py-16 sm:py-20 bg-white border-t border-gray-100">
       <div class="max-w-5xl mx-auto px-4 sm:px-6">
-        <div class="bg-ivory rounded-3xl p-7 sm:p-10 border border-gray-200/80 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+        <div
+          class="bg-ivory rounded-3xl p-7 sm:p-10 border border-gray-200/80 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div class="space-y-3 max-w-2xl">
-            <span class="text-xs font-display font-extrabold tracking-widest text-leaf uppercase">ORGANIZER & VENUE</span>
+            <span class="text-xs font-display font-extrabold tracking-widest text-leaf uppercase">ORGANIZER &
+              VENUE</span>
             <h2 class="font-maru font-black text-2xl sm:text-3xl text-ink">運営・会場：シェア工房TukuriE（ツクリエ）</h2>
             <p class="font-maru font-bold text-base text-leaf">「作ってみたいを、カタチに。」</p>
             <p class="text-sm sm:text-base text-slate leading-relaxed">
@@ -723,9 +1450,13 @@
             </p>
           </div>
           <div class="shrink-0">
-            <a href="https://tukurie.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-white hover:bg-sage text-ink font-bold text-sm border-2 border-leaf/30 shadow-sm transition-all">
+            <a href="https://tukurie.com/" target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-white hover:bg-sage text-ink font-bold text-sm border-2 border-leaf/30 shadow-sm transition-all">
               <span>シェア工房TukuriE 公式サイト</span>
-              <svg class="w-4 h-4 text-leaf" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              <svg class="w-4 h-4 text-leaf" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
             </a>
           </div>
         </div>
@@ -736,12 +1467,15 @@
     <section id="cta" class="py-16 sm:py-24 bg-gradient-to-b from-sage/60 to-sage relative overflow-hidden">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10">
         <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-soft border-2 border-leaf/30 text-center">
-          
+
           <div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-            <svg class="w-16 h-16" viewBox="0 0 120 120"><use href="#kaika-flower-logo"></use></svg>
+            <svg class="w-16 h-16" viewBox="0 0 120 120">
+              <use href="#kaika-flower-logo"></use>
+            </svg>
           </div>
 
-          <span class="font-display font-extrabold text-xs tracking-widest text-leaf uppercase">ENTRY & WORKSHOP TOUR</span>
+          <span class="font-display font-extrabold text-xs tracking-widest text-leaf uppercase">ENTRY & WORKSHOP
+            TOUR</span>
           <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink mt-1 mb-4">
             参加申込み（エントリー）・見学会のご案内
           </h2>
@@ -752,33 +1486,44 @@
 
           <!-- 2つの選択肢カード -->
           <div class="grid md:grid-cols-2 gap-6 text-left mb-4">
-            
+
             <!-- ① 本エントリー（Googleフォーム） -->
             <div class="bg-ivory rounded-2xl p-6 border-2 border-leaf/30 flex flex-col justify-between">
               <div>
-                <span class="inline-block px-3 py-1 rounded-full bg-leaf/15 text-leaf font-extrabold text-xs mb-3">1. 参加申込み（本エントリー）</span>
+                <span class="inline-block px-3 py-1 rounded-full bg-leaf/15 text-leaf font-extrabold text-xs mb-3">1.
+                  参加申込み（本エントリー）</span>
                 <h3 class="font-maru font-black text-xl text-ink mb-2">第1期 Basic Class に申し込む</h3>
                 <p class="text-xs sm:text-sm text-slate mb-4 leading-relaxed">
                   Googleフォーム（全11問・所要時間約3分）よりお申込みください。※定員（8名）を超えた場合はご記入内容をもとに選考となります。
                 </p>
               </div>
-              <a href="https://forms.gle/da2SZbtfNDBy53dX9" target="_blank" rel="noopener noreferrer" class="js-form-link w-full py-4 px-5 rounded-xl bg-leaf hover:bg-forest text-white font-maru font-black text-sm sm:text-base shadow-md transition-all flex items-center justify-center gap-2">
+              <a href="https://forms.gle/da2SZbtfNDBy53dX9" target="_blank" rel="noopener noreferrer"
+                class="js-form-link w-full py-4 px-5 rounded-xl bg-leaf hover:bg-forest text-white font-maru font-black text-sm sm:text-base shadow-md transition-all flex items-center justify-center gap-2">
                 <span>Googleフォームでエントリーする</span>
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
               </a>
             </div>
 
             <!-- ② ミニ体験付き見学会・事前相談（公式LINE） -->
             <div class="bg-ivory rounded-2xl p-6 border-2 border-[#06C755]/30 flex flex-col justify-between">
               <div>
-                <span class="inline-block px-3 py-1 rounded-full bg-[#06C755]/15 text-[#059b42] font-extrabold text-xs mb-3">2. 見学会の案内・事前のご質問</span>
+                <span
+                  class="inline-block px-3 py-1 rounded-full bg-[#06C755]/15 text-[#059b42] font-extrabold text-xs mb-3">2.
+                  見学会の案内・事前のご質問</span>
                 <h3 class="font-maru font-black text-xl text-ink mb-2">ミニ体験付き見学会・LINE相談</h3>
                 <p class="text-xs sm:text-sm text-slate mb-4 leading-relaxed">
                   レーザーカッター等のミニ体験ができる「工房見学会」の日程案内や、持参PC・プログラム内容に関する個別相談は公式LINEで受け付けています。
                 </p>
               </div>
-              <a id="cta-line-link" href="https://lin.ee/5YhFADn" target="_blank" rel="noopener noreferrer" class="js-line-link w-full py-4 px-5 rounded-xl bg-[#06C755] hover:bg-[#05b04b] text-white font-maru font-black text-sm sm:text-base shadow-md transition-all flex items-center justify-center gap-2">
-                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+              <a id="cta-line-link" href="https://lin.ee/5YhFADn" target="_blank" rel="noopener noreferrer"
+                class="js-line-link w-full py-4 px-5 rounded-xl bg-[#06C755] hover:bg-[#05b04b] text-white font-maru font-black text-sm sm:text-base shadow-md transition-all flex items-center justify-center gap-2">
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314" />
+                </svg>
                 <span>公式LINEで見学会案内・質問する</span>
               </a>
             </div>
@@ -793,7 +1538,9 @@
   <footer class="bg-ivory border-t border-gray-200 py-12 text-slate">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
       <div class="flex items-center gap-3">
-        <svg class="w-10 h-10 shrink-0" viewBox="0 0 120 120"><use href="#kaika-flower-logo"></use></svg>
+        <svg class="w-10 h-10 shrink-0" viewBox="0 0 120 120">
+          <use href="#kaika-flower-logo"></use>
+        </svg>
         <div>
           <div class="flex items-baseline gap-1.5">
             <span class="font-maru font-black text-xl tracking-wider text-ink">KAIKA</span>
@@ -803,7 +1550,8 @@
         </div>
       </div>
       <div class="text-center sm:text-right text-xs space-y-1">
-        <p>運営：<a href="https://tukurie.com/" target="_blank" rel="noopener noreferrer" class="font-bold text-ink hover:text-leaf underline">シェア工房TukuriE</a>（千葉県君津市）</p>
+        <p>運営：<a href="https://tukurie.com/" target="_blank" rel="noopener noreferrer"
+            class="font-bold text-ink hover:text-leaf underline">シェア工房TukuriE</a>（千葉県君津市）</p>
         <p class="text-gray-400">&copy; KAIKA Project / TukuriE. All Rights Reserved.</p>
       </div>
     </div>
@@ -837,7 +1585,7 @@
     function renderCurriculum() {
       const cardsContainer = document.getElementById('curriculum-cards-container');
       const tableBody = document.getElementById('curriculum-table-body');
-      
+
       cardsContainer.innerHTML = kaikaScheduleData.map(item => `
         <div class="bg-white rounded-3xl p-6 border ${item.num === 10 ? 'border-2 border-amber shadow-md' : 'border-gray-200/80 shadow-sm'} flex flex-col justify-between">
           <div>
@@ -891,4 +1639,5 @@
     document.addEventListener('DOMContentLoaded', renderCurriculum);
   </script>
 </body>
+
 </html>
