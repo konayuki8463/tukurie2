@@ -126,35 +126,36 @@
   <!-- ヘッダー -->
   <header
     class="fixed top-1.5 left-0 right-0 z-40 bg-ivory/90 backdrop-blur-md border-b border-gray-200/70 transition-all">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
-      <a href="#hero" class="flex items-center gap-3 group">
-        <svg class="w-11 h-11 sm:w-12 sm:h-12 shrink-0 group-hover:rotate-12 transition-transform duration-500"
+    <div class="max-w-6xl mx-auto px-3 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-2">
+      <a href="#hero" class="flex items-center gap-2 sm:gap-3 group min-w-0">
+        <svg class="w-10 h-10 sm:w-12 sm:h-12 shrink-0 group-hover:rotate-12 transition-transform duration-500"
           viewBox="0 0 120 120">
           <use href="#kaika-flower-logo"></use>
         </svg>
-        <div class="flex flex-col">
+        <div class="flex flex-col min-w-0">
           <div class="flex items-baseline gap-1.5">
-            <span class="font-maru font-black text-2xl sm:text-[26px] tracking-wider text-ink leading-none">KAIKA</span>
+            <span class="font-maru font-black text-xl sm:text-[26px] tracking-wider text-ink leading-none">KAIKA</span>
             <span
-              class="font-display font-extrabold text-xs sm:text-sm tracking-[0.18em] text-leaf uppercase">PROJECT</span>
+              class="font-display font-extrabold text-[11px] sm:text-sm tracking-[0.18em] text-leaf uppercase">PROJECT</span>
           </div>
-          <span class="text-[10px] text-slate font-medium tracking-wider mt-0.5">クリエイティブ探究プログラム by TukuriE</span>
+          <span
+            class="text-[9px] sm:text-[10px] text-slate font-medium tracking-tight sm:tracking-wider mt-0.5 whitespace-nowrap">クリエイティブ探究プログラム
+            by TukuriE</span>
         </div>
       </a>
       <nav class="hidden lg:flex items-center gap-6 text-sm font-bold text-ink">
         <a href="#about" class="hover:text-leaf transition-colors">KAIKAとは？</a>
         <a href="#process" class="hover:text-leaf transition-colors">3つのプロセス</a>
         <a href="#tools" class="hover:text-leaf transition-colors">技術・機材</a>
-        <a href="#model-cases">実践例</a>
         <a href="#curriculum" class="hover:text-leaf transition-colors">全10回日程</a>
         <a href="#guidelines" class="hover:text-leaf transition-colors">募集要項</a>
         <a href="#faq" class="hover:text-leaf transition-colors">よくある質問</a>
       </nav>
-      <div class="flex items-center gap-2 sm:gap-3">
+      <div class="flex items-center shrink-0">
         <a href="#cta"
-          class="px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-leaf hover:bg-forest text-white font-bold text-xs sm:text-sm shadow-sm transition-all flex items-center gap-1.5">
+          class="px-3.5 py-2 sm:px-5 sm:py-2.5 rounded-full bg-leaf hover:bg-forest text-white font-bold text-xs sm:text-sm shadow-sm transition-all flex items-center gap-1 whitespace-nowrap">
           <span>申込・見学会案内</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
           </svg>
         </a>
@@ -216,7 +217,7 @@
             <!-- 2択に整理したファーストビューCTA -->
             <div class="pt-3 space-y-2.5">
               <p class="text-xs sm:text-sm font-bold text-ink flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded bg-amber text-white text-xs font-black">12/13(日) 開催</span>
+                <span class="px-2 py-0.5 rounded bg-amber text-white text-xs font-black">12/20(日) 開催</span>
                 <span>開講前に「体験付き見学会＆選べる3つのワークショップ」を実施します！</span>
               </p>
               <div class="flex flex-col sm:flex-row gap-3.5 sm:gap-4">
@@ -231,7 +232,7 @@
                 </a>
                 <a href="#workshop"
                   class="px-7 py-4 rounded-2xl bg-white hover:bg-amber/10 text-ink border-2 border-amber font-bold text-base sm:text-lg shadow-sm transition-all flex items-center justify-center gap-2">
-                  <span>12/13 体験付き見学会・WS詳細へ</span>
+                  <span>12/20 体験付き見学会・WS詳細へ</span>
                 </a>
               </div>
             </div>
@@ -239,14 +240,15 @@
 
           <!-- 右カラム：CONCEPT DIAGRAM -->
           <div class="lg:col-span-5">
-            <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-soft border border-gray-200/80 relative overflow-hidden">
+            <div class="bg-white rounded-3xl p-5 sm:p-8 shadow-soft border border-gray-200/80 relative overflow-hidden">
               <div class="flex items-center justify-between mb-4">
                 <span class="font-display font-extrabold text-xs tracking-widest uppercase text-slate">CONCEPT
                   DIAGRAM</span>
                 <span class="text-xs font-bold text-leaf bg-sage px-2.5 py-0.5 rounded-full">KAIKA ＝ 開花</span>
               </div>
 
-              <div class="relative w-full aspect-square max-w-[340px] mx-auto my-2 flex items-center justify-center">
+              <div
+                class="relative w-full aspect-square max-w-[310px] sm:max-w-[340px] mx-auto my-2 flex items-center justify-center">
                 <svg class="w-full h-full absolute inset-0" viewBox="0 0 320 320">
                   <circle cx="160" cy="160" r="118" fill="none" stroke="#DCE7E0" stroke-width="2"
                     stroke-dasharray="6 6" />
@@ -259,40 +261,51 @@
                     stroke-linecap="round" opacity="0.5" />
                 </svg>
 
-                <div class="absolute top-1 left-1/2 -translate-x-1/2 flex flex-col items-center text-center z-10">
-                  <div class="px-4 py-2 rounded-2xl bg-[#FFF9EB] border-2 border-amber shadow-sm">
-                    <span class="block font-display font-extrabold text-xs text-amber tracking-wider">01.
-                      DISCOVER</span>
-                    <span class="block font-bold text-xs text-ink">発見する・好きを知る</span>
-                  </div>
-                </div>
-
-                <div class="absolute bottom-4 right-0 sm:right-1 flex flex-col items-center text-center z-10">
-                  <div class="px-4 py-2 rounded-2xl bg-[#EBF7F2] border-2 border-leaf shadow-sm">
-                    <span class="block font-display font-extrabold text-xs text-leaf tracking-wider">02. MAKE</span>
-                    <span class="block font-bold text-xs text-ink">形にする・試行錯誤</span>
-                  </div>
-                </div>
-
-                <div class="absolute bottom-4 left-0 sm:left-1 flex flex-col items-center text-center z-10">
-                  <div class="px-4 py-2 rounded-2xl bg-[#EEF5FF] border-2 border-sky shadow-sm">
-                    <span class="block font-display font-extrabold text-xs text-sky tracking-wider">03. STORY</span>
-                    <span class="block font-bold text-xs text-ink">言葉とスライドで伝える</span>
-                  </div>
-                </div>
-
+                <!-- 01. DISCOVER（改行落ち防止のため whitespace-nowrap を追加） -->
                 <div
-                  class="relative z-20 w-36 h-36 rounded-full bg-white shadow-md border border-gray-100 flex flex-col items-center justify-center p-3">
-                  <svg class="w-20 h-20 animate-spin-slow" viewBox="0 0 120 120">
+                  class="absolute top-0 sm:top-1 left-1/2 -translate-x-1/2 flex flex-col items-center text-center z-10">
+                  <div
+                    class="px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl bg-[#FFF9EB] border-2 border-amber shadow-sm whitespace-nowrap">
+                    <span class="block font-display font-extrabold text-[11px] sm:text-xs text-amber tracking-wider">01.
+                      DISCOVER</span>
+                    <span class="block font-bold text-[11px] sm:text-xs text-ink">発見する・好きを知る</span>
+                  </div>
+                </div>
+
+                <!-- 02. MAKE（スマホで中央がくっつかないようサイズと位置を最適化） -->
+                <div class="absolute bottom-2 sm:bottom-4 right-0 flex flex-col items-center text-center z-10">
+                  <div
+                    class="px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl bg-[#EBF7F2] border-2 border-leaf shadow-sm whitespace-nowrap">
+                    <span class="block font-display font-extrabold text-[10px] sm:text-xs text-leaf tracking-wider">02.
+                      MAKE</span>
+                    <span class="block font-bold text-[10px] sm:text-xs text-ink">形にする・試行錯誤</span>
+                  </div>
+                </div>
+
+                <!-- 03. STORY（スマホで中央がくっつかないようサイズと位置を最適化） -->
+                <div class="absolute bottom-2 sm:bottom-4 left-0 flex flex-col items-center text-center z-10">
+                  <div
+                    class="px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-2xl bg-[#EEF5FF] border-2 border-sky shadow-sm whitespace-nowrap">
+                    <span class="block font-display font-extrabold text-[10px] sm:text-xs text-sky tracking-wider">03.
+                      STORY</span>
+                    <span class="block font-bold text-[10px] sm:text-xs text-ink">言葉とスライドで伝える</span>
+                  </div>
+                </div>
+
+                <!-- 中央ロゴ -->
+                <div
+                  class="relative z-20 w-32 h-32 sm:w-36 sm:h-36 rounded-full bg-white shadow-md border border-gray-100 flex flex-col items-center justify-center p-3">
+                  <svg class="w-16 h-16 sm:w-20 sm:h-20 animate-spin-slow" viewBox="0 0 120 120">
                     <use href="#kaika-flower-logo"></use>
                   </svg>
-                  <span class="font-maru font-black text-sm tracking-widest text-ink mt-1 leading-none">KAIKA</span>
-                  <span class="text-[10px] font-bold text-leaf mt-0.5">自分らしく開花する</span>
+                  <span
+                    class="font-maru font-black text-xs sm:text-sm tracking-widest text-ink mt-1 leading-none">KAIKA</span>
+                  <span class="text-[9px] sm:text-[10px] font-bold text-leaf mt-0.5 whitespace-nowrap">自分らしく開花する</span>
                 </div>
               </div>
 
               <div class="mt-4 pt-4 border-t border-gray-100 text-center">
-                <p class="font-maru font-bold text-sm sm:text-base text-ink">
+                <p class="font-maru font-bold text-xs sm:text-base text-ink">
                   「発見する。つくる。伝える。<span class="text-leaf">自分らしく、開花する。</span>」
                 </p>
               </div>
@@ -1148,7 +1161,7 @@
           class="mt-8 bg-white rounded-2xl p-5 sm:p-6 border border-amber/40 text-xs sm:text-sm text-slate space-y-1.5 leading-relaxed">
           <p class="font-bold text-ink flex items-center gap-2"><span
               class="w-2 h-2 rounded-full bg-amber"></span>開催日程に関するご案内</p>
-          <p>・開催日程は現時点での予定です。講師や会場の都合、その他の事情により、日程が変更となる場合があります。</p>
+          <p>・開催日程は現時点での予定です。講師や会場の都合、その他の事情により、日程や内容が変更となる場合があります。</p>
           <p>・変更が生じた場合は、参加者・保護者の皆さまへ事前にご連絡いたします。</p>
           <p class="font-bold text-leaf pt-1">※最新の開催日程は、本Webサイトまたは主催者からのご案内をご確認ください。</p>
         </div>
@@ -1190,7 +1203,7 @@
           class="bg-gradient-to-r from-sage/70 via-sage to-sage/70 rounded-3xl p-6 sm:p-8 text-center border border-leaf/25">
           <p class="font-maru font-black text-lg sm:text-xl text-ink mb-2">最初から「作りたいもの」が決まっていなくても大丈夫！</p>
           <p class="text-sm sm:text-base text-slate max-w-2xl mx-auto leading-relaxed">
-            第1回の「DISCOVER（自分を知る）」で、マインドマップを使いながら自分の興味や「やってみたい」を一緒に掘り下げていきます。デジタル工作が初めてのお子さまも安心してご参加ください。
+            第1回の「DISCOVER（自分を知る）」で、ワークシートを使いながら自分の興味や「やってみたい」を一緒に掘り下げていきます。デジタル工作が初めてのお子さまも安心してご参加ください。
           </p>
         </div>
       </div>
@@ -1266,6 +1279,13 @@
                   ※定員を超えるお申込みをいただいた場合は、スキルや経験ではなく「やってみたい！」という意欲を重視して、エントリーフォームの内容をもとに参加者を決定させていただきます。</p>
               </dd>
             </div>
+            <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4 bg-amber/5">
+              <dt class="font-bold text-ink">エントリー締切</dt>
+              <dd class="sm:col-span-2 text-ink">
+                <span class="font-maru font-black text-base sm:text-lg text-coral">2026年12月30日（水）23:59まで</span>
+                <p class="text-xs sm:text-sm text-slate mt-1">※選考結果および参加確定のご案内は、締切後1週間以内にメールにてご連絡いたします。</p>
+              </dd>
+            </div>
             <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4">
               <dt class="font-bold text-ink">開催期間・回数</dt>
               <dd class="sm:col-span-2 text-ink">
@@ -1321,7 +1341,7 @@
             <div class="grid sm:grid-cols-3 p-4 sm:p-6 gap-1 sm:gap-4 bg-white">
               <dt class="font-bold text-ink">体験付き見学会・説明会</dt>
               <dd class="sm:col-span-2 text-xs sm:text-sm text-ink leading-relaxed">
-                <p class="font-bold text-leaf text-sm sm:text-base mb-1">2026年12月13日（日） ①10:00〜11:30 ／ ②13:30〜15:00</p>
+                <p class="font-bold text-leaf text-sm sm:text-base mb-1">2026年12月20日（日） ①10:00〜11:30 ／ ②13:30〜15:00</p>
                 工房見学・ミニ説明会・個別相談会（無料）と合わせて、先輩キッズクリエイターがプロデュースした3つのワークショップ（300円〜600円）を体験いただけます。詳細は<a href="#workshop"
                   class="text-leaf underline font-bold">「体験付き見学会・説明会」</a>をご覧ください。
               </dd>
@@ -1473,7 +1493,7 @@
     </section>
 
     <!-- ==========================================
-         NEW SECTION：12/13(日) 体験付き見学会・ミニ説明会＆相談会
+         NEW SECTION：12/20(日) 体験付き見学会・ミニ説明会＆相談会
     =========================================== -->
     <section id="workshop" class="py-16 sm:py-20 bg-ivory border-t border-gray-200/60">
       <div class="max-w-5xl mx-auto px-4 sm:px-6">
@@ -1485,7 +1505,7 @@
           <div class="text-center max-w-3xl mx-auto mb-10">
             <span
               class="inline-block px-4 py-1 rounded-full bg-amber text-white font-black text-xs sm:text-sm tracking-wider mb-3 shadow-sm">
-              12/13(日) 開講前スペシャルイベント！
+              12/20(日) 開講前スペシャルイベント！
             </span>
             <h2 class="font-maru font-black text-2xl sm:text-4xl text-ink leading-snug mb-4">
               体験付き工房見学会 ＆ <span class="text-leaf">ミニ説明会・相談会</span>
@@ -1501,7 +1521,7 @@
             <div class="grid sm:grid-cols-12 gap-4 items-center text-center sm:text-left">
               <div class="sm:col-span-5 sm:border-r border-gray-200 pr-2">
                 <span class="block text-xs font-bold text-slate">開催日・会場（シェア工房TukuriE）</span>
-                <span class="font-maru font-black text-xl sm:text-2xl text-ink">2026年12月13日<span
+                <span class="font-maru font-black text-xl sm:text-2xl text-ink">2026年12月20日<span
                     class="text-base text-coral">（日）</span></span>
                 <span class="block text-xs font-bold text-leaf mt-1">※ミニ説明会・相談会も同時間開催</span>
               </div>
@@ -1531,14 +1551,15 @@
           </div>
 
           <div class="grid md:grid-cols-3 gap-5 mb-10">
-            <!-- CASE 01 ワークショップ -->
+            <!-- WS 01 ワークショップ -->
             <div class="bg-ivory rounded-2xl p-6 border border-gray-200/80 flex flex-col justify-between">
               <div>
-                <div class="flex items-center justify-between gap-1 mb-3">
-                  <span class="px-2.5 py-1 rounded-full bg-amber/15 text-amber font-display font-extrabold text-xs">WS
+                <div class="flex items-center justify-between gap-2 mb-3">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-amber/15 text-amber font-display font-extrabold text-xs whitespace-nowrap shrink-0">WS
                     01</span>
                   <span
-                    class="text-[11px] font-bold text-slate bg-white px-2.5 py-0.5 rounded-full border border-gray-200">レーザーカッター×3Dプリンタ</span>
+                    class="text-[11px] font-bold text-slate bg-white px-2.5 py-0.5 rounded-full border border-gray-200 whitespace-nowrap">レーザー×3Dプリンタ</span>
                 </div>
                 <h4 class="font-maru font-black text-lg text-ink mb-2 leading-snug">
                   世界に一つだけのオリジナルボタン
@@ -1554,14 +1575,15 @@
               </div>
             </div>
 
-            <!-- CASE 02 ワークショップ -->
+            <!-- WS 02 ワークショップ -->
             <div class="bg-ivory rounded-2xl p-6 border border-gray-200/80 flex flex-col justify-between">
               <div>
-                <div class="flex items-center justify-between gap-1 mb-3">
-                  <span class="px-2.5 py-1 rounded-full bg-leaf/15 text-leaf font-display font-extrabold text-xs">WS
+                <div class="flex items-center justify-between gap-2 mb-3">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-leaf/15 text-leaf font-display font-extrabold text-xs whitespace-nowrap shrink-0">WS
                     02</span>
                   <span
-                    class="text-[11px] font-bold text-slate bg-white px-2.5 py-0.5 rounded-full border border-gray-200">活用機材：レーザーカッター</span>
+                    class="text-[11px] font-bold text-slate bg-white px-2.5 py-0.5 rounded-full border border-gray-200 whitespace-nowrap">レーザーカッター</span>
                 </div>
                 <h4 class="font-maru font-black text-lg text-ink mb-2 leading-snug">
                   着せ替えスタンプでメッセージカードを作ろう
@@ -1577,17 +1599,18 @@
               </div>
             </div>
 
-            <!-- CASE 03 ワークショップ -->
+            <!-- WS 03 ワークショップ -->
             <div class="bg-ivory rounded-2xl p-6 border border-gray-200/80 flex flex-col justify-between">
               <div>
-                <div class="flex items-center justify-between gap-1 mb-3">
-                  <span class="px-2.5 py-1 rounded-full bg-sky/15 text-sky font-display font-extrabold text-xs">WS
+                <div class="flex items-center justify-between gap-2 mb-3">
+                  <span
+                    class="px-2.5 py-1 rounded-full bg-sky/15 text-sky font-display font-extrabold text-xs whitespace-nowrap shrink-0">WS
                     03</span>
                   <span
-                    class="text-[11px] font-bold text-slate bg-white px-2.5 py-0.5 rounded-full border border-gray-200">活用機材：3Dプリンタ</span>
+                    class="text-[11px] font-bold text-slate bg-white px-2.5 py-0.5 rounded-full border border-gray-200 whitespace-nowrap">3Dプリンタ</span>
                 </div>
                 <h4 class="font-maru font-black text-lg text-ink mb-2 leading-snug">
-                  着せ替えお寿司（お寿司マン）
+                  着せ替えお寿司<span class="inline-block">（お寿司マン）</span>
                 </h4>
                 <p class="text-xs sm:text-sm text-slate leading-relaxed">
                   3Dプリンタで作ったしゃりとネタを合体！本物そっくりな自分だけのお寿司おもちゃ。好きなお寿司を完成させよう！
@@ -1650,11 +1673,15 @@
             <!-- ① 本エントリー（Googleフォーム） -->
             <div class="bg-ivory rounded-2xl p-6 border-2 border-leaf/30 flex flex-col justify-between">
               <div>
-                <span class="inline-block px-3 py-1 rounded-full bg-leaf/15 text-leaf font-extrabold text-xs mb-3">1.
-                  参加申込み（本エントリー）</span>
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                  <span class="inline-block px-3 py-1 rounded-full bg-leaf/15 text-leaf font-extrabold text-xs">1.
+                    参加申込み（本エントリー）</span>
+                  <span
+                    class="text-xs font-extrabold text-coral bg-coral/10 px-2.5 py-1 rounded-full">締切：12/30(水)</span>
+                </div>
                 <h3 class="font-maru font-black text-xl text-ink mb-2">第1期 Basic Class に申し込む</h3>
                 <p class="text-xs sm:text-sm text-slate mb-4 leading-relaxed">
-                  Googleフォーム（全11問・所要時間約3分）よりお申込みください。※定員（6名）を超えた場合はご記入内容をもとに選考となります。
+                  Googleフォーム（全12問・所要時間約3分）よりお申込みください。※定員（6名）を超えた場合はご記入内容をもとに選考となります。
                 </p>
               </div>
               <a href="https://forms.gle/da2SZbtfNDBy53dX9" target="_blank" rel="noopener noreferrer"
@@ -1723,7 +1750,7 @@
     const OFFICIAL_LINE_URL = "https://lin.ee/5YhFADn";
 
     const kaikaScheduleData = [
-      { num: 1, date: "2027年1月17日（日）", code: "DISCOVER", title: "自分を知る", color: "amber", items: ["自分の好きなこと、興味のあることを見つける", "マインドマップでアイデアを広げる", "パソコンの基本操作、制作環境の準備"] },
+      { num: 1, date: "2027年1月17日（日）", code: "DISCOVER", title: "自分を知る", color: "amber", items: ["自分の好きなこと、興味のあることを見つける", "「好き」を深掘りするワークシートでアイデアを広げる", "パソコンの基本操作、制作環境の準備"] },
       { num: 2, date: "2027年1月31日（日）", code: "2D DESIGN", title: "アイデアを描く", color: "leaf", items: ["2Dデザインソフトを使った設計", "レーザーカッターで作品を形にする"] },
       { num: 3, date: "2027年2月7日（日）", code: "DESIGN", title: "デザインを発展させる", color: "leaf", items: ["2Dデザインの応用", "平面から立体を作る仕組みを考える"] },
       { num: 4, date: "2027年2月28日（日）", code: "3D DESIGN", title: "立体を生み出す", color: "leaf", items: ["Tinkercadを使った3D設計", "3Dプリンター用のデータ制作"] },
